@@ -1,3 +1,27 @@
+.NET Core
+EntityFramework Core
+SQL Server
+AutoMapper
+JWT formato Bearer
+
+SDK 5.0.101 (Visual Studio 2019)
+
+Projetos:
+* Ioasys.Adapter
+* Ioasys.Api
+* Ioasys.Application
+* Ioasys.Domain
+* Ioasys.NUnitTest (incompleto)
+
+Migrations em:
+Ioasys.Adapter (20201216133003_DBInitial)
+
+Alterar o banco de dados em: 
+Ioasys.Api (appsettings)
+
+
+
+
 # Desafio Pessoa Desenvolvedora .NET
 
 ## 🏗 O que fazer?
