@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ioasys.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Ioasys.Api.Controllers.AdminController.GetUsuarios(Ioasys.Domain.Shared.Filters.GenericFilter{Ioasys.Domain.AuthAggregate.Dtos.UsuarioListaDto})">
+            <summary>
+            Lista de usuários não administradores ativos (registros paginados)
+            </summary>
+            <response code="200"></response>
+        </member>
+        <member name="M:Ioasys.Api.Controllers.AdminController.RegistraAdmin(Ioasys.Domain.AuthAggregate.Dtos.AdminRegistroDto)">
+            <summary>
+            Registro de usuário administrador no sistema
+            </summary>
+            <response code="201"></response>
+        </member>
+        <member name="M:Ioasys.Api.Controllers.AdminController.AtualizaAdmin(Ioasys.Domain.AuthAggregate.Dtos.UsuarioAtualizaDto)">
+            <summary>
+            Edição de usuário administrador.
+            </summary>
+            <response code="200"></response>
+        </member>
+        <member name="M:Ioasys.Api.Controllers.AdminController.DesativaAdmin(System.Int32)">
+            <summary>
+            Desativação de usuários (acesso de administrador)
+            </summary>
+            <response code="200"></response>
+        </member>
+        <member name="M:Ioasys.Api.Controllers.AuthController.LoginAdmin(Ioasys.Domain.AuthAggregate.Dtos.LoginDto)">
+            <summary>
+            Login para obteção do token
+            </summary>
+            <response code="200"></response>
+        </member>
+        <member name="M:Ioasys.Api.Controllers.FilmeController.RegistraFilme(Ioasys.Domain.FilmeAggregate.Dtos.FilmeRegistroDto)">
+            <summary>
+            Registrar filme no sistema
+            </summary>
+            <response code="201"></response>
+        </member>
+        <member name="M:Ioasys.Api.Controllers.FilmeController.VotoRating(Ioasys.Domain.FilmeAggregate.Dtos.RatingFilme)">
+            <summary>
+            Votar em um determinado filme.
+            </summary>
+            <response code="200"></response>
+        </member>
+        <member name="M:Ioasys.Api.Controllers.FilmeController.BuscaFilmes(Ioasys.Domain.Shared.Filters.BuscaFilme)">
+            <summary>
+            Listagem dos filmes
+            </summary>
+            <response code="200"></response>
+        </member>
+        <member name="M:Ioasys.Api.Controllers.FilmeController.BuscaFilmes(System.Int32)">
+            <summary>
+            Buscar por um filme
+            </summary>
+            <response code="200"></response>
+        </member>
+        <member name="M:Ioasys.Api.Controllers.UsuarioController.RegistraUsuario(Ioasys.Domain.AuthAggregate.Dtos.UsuarioRegistroDto)">
+            <summary>
+            Registrar um usuário
+            </summary>
+            <response code="201"></response>
+        </member>
+        <member name="M:Ioasys.Api.Controllers.UsuarioController.AtualizaUsuario(Ioasys.Domain.AuthAggregate.Dtos.UsuarioAtualizaDto)">
+            <summary>
+            Atualizar os dados de um usuário
+            </summary>
+            <response code="200"></response>
+        </member>
+        <member name="M:Ioasys.Api.Controllers.UsuarioController.DesativarUsuario">
+            <summary>
+            Desativar o usuário logado.
+            </summary>
+            <response code="200"></response>
+        </member>
+    </members>
+</doc>
