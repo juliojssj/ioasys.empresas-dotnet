@@ -1,10 +1,11 @@
-.NET Core
-EntityFramework Core
-SQL Server
-AutoMapper
-JWT formato Bearer
 
-SDK 5.0.101 (Visual Studio 2019)
+
+* .NET Core
+* SDK 5.0.101 (Visual Studio 2019)
+* EntityFramework Core
+* SQL Server
+* AutoMapper
+* JWT formato Bearer
 
 Projetos:
 * Ioasys.Adapter
